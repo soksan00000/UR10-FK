@@ -12,4 +12,5 @@ H6 = DH(0,0.0922,0,0)
 V = np.dot(np.dot(H1,H2),H3)
 N = np.dot(np.dot(V,H4),H5)
 H = N.dot(H6)
+
 print(H)
